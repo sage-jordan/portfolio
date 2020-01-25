@@ -4,12 +4,13 @@
   "description": "Responsive Full Stack Web Dev Portfolio",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p public && touch public/index.html",
+    "build": " /dist/index.html",
     "sass": "node-sass -w dist/scss/ -o dist/css/ --recursive"
   },
   "author": "Sage Jordan",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "now": "^16.7.3"
   }
 }
