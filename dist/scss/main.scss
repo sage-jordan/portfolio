@@ -1,10 +1,36 @@
 // Colors
-$primary-color: #17888a;
+$primary-color: #2be0e3;
 $secondary-color:#da9ee8;
+$tertiary-color: #bde69e;
+ 
+// Image
+$show-home-image: true;
+$home-image: url(../img/cherryblossoms.jpg);
+$background-opacity: 0.8;
 
 // Mixins
 @mixin easeOut {
     transition: all 0.5s ease-out;
+}
+@mixin background {
+    @if $show-home-image {
+        &#bg-img {
+            background: $home-image;
+            background-attachment: fixed;
+            background-size: cover;
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 100%;
+                z-index: -1;
+                height: 100%;
+                background: rgba($primary-color, $background-opacity);
+                
+            }
+        }
+    }
 }
 
 // General Styles
@@ -14,6 +40,7 @@ $secondary-color:#da9ee8;
 
 // Body
 body {
+    @include background;
     background: $primary-color;
     color: white;
     height: 100%;
@@ -67,6 +94,14 @@ main {
                 color: $secondary-color;
                 @include easeOut();
             }
+        }
+    }
+
+    &#home {
+        overflow: hidden;
+
+        h1 {
+            margin-top: 20vh;
         }
     }
 }
