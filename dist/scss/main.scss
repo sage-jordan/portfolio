@@ -19,7 +19,8 @@ $background-opacity: 0.8;
             background-attachment: fixed;
             background-size: cover;
 
-            .overlay {
+            &:after {
+                content: '';
                 position: absolute;
                 top: 0;
                 right: 0;
