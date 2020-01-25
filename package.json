@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Full Stack Web Dev Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sage-jordan/portfolio.git"
+  },
+  "author": "Sage Jordan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sage-jordan/portfolio/issues"
+  },
+  "homepage": "https://github.com/sage-jordan/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
