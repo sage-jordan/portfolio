@@ -9,7 +9,7 @@
     width: 30px;
     height: 5px;
     margin: 0 0 5px 0;
-    background: #bde69e;
+    background: #b4ffea;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -57,7 +57,7 @@
       width: 250px;
       height: 250px;
       border-radius: 50%;
-      border: solid 3px #da9ee8; }
+      border: solid 3px #a590e6; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }

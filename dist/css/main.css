@@ -9,7 +9,7 @@
     width: 30px;
     height: 5px;
     margin: 0 0 5px 0;
-    background: #bde69e;
+    background: #b4ffea;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -57,7 +57,7 @@
       width: 250px;
       height: 250px;
       border-radius: 50%;
-      border: solid 3px #da9ee8; }
+      border: solid 3px #a590e6; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -81,7 +81,7 @@
 
 body {
   background: #2be0e3;
-  color: white;
+  color: #b4ffea;
   height: 100%;
   margin: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -98,7 +98,7 @@ body {
       width: 100%;
       z-index: -1;
       height: 100%;
-      background: rgba(43, 224, 227, 0.8); }
+      background: rgba(43, 224, 227, 0.9); }
 
 h1, h2, h3 {
   margin: 0;
@@ -111,7 +111,7 @@ h1, h2, h3 {
     background: rgba(52, 225, 228, 0.5); }
 
 a {
-  color: white;
+  color: #b4ffea;
   text-decoration: none; }
 
 header {
@@ -120,7 +120,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #da9ee8; }
+  color: #a590e6; }
 
 main {
   padding: 4rem;
@@ -130,7 +130,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #da9ee8;
+        color: #a590e6;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
