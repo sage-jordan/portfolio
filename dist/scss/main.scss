@@ -1,6 +1,10 @@
 @import 'config';
-// General Styles
+@import 'menu';
 
+// General Styles
+* {
+    box-sizing: border-box;
+}
 
 // Body
 body {
