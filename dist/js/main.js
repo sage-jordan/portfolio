@@ -4,7 +4,7 @@ const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
 const menuBranding = document.querySelector('.menu-branding');
 const menuNav = document.querySelector('.menu-nav');
-const navItems = document.querySelectorAll('.nav-items');
+const navItems = document.querySelectorAll('.nav-item');
 
 // Set Initial State of Menu
 
@@ -19,8 +19,8 @@ function toggleMenu() { // Toggle Menu (classes and state)
         menuBranding.classList.add('show');
         menuNav.classList.add('show');
         navItems.forEach(item => {
-            item.classLlist.add('show');
-        })
+            item.classList.add('show')
+        });
         showMenu = true; 
     } else {
         menuBtn.classList.remove('close');
@@ -28,8 +28,8 @@ function toggleMenu() { // Toggle Menu (classes and state)
         menuBranding.classList.remove('show');
         menuNav.classList.remove('show');
         navItems.forEach(item => {
-            item.classLlist.remove('show');
-        })
+            item.classList.remove('show');
+        });
         showMenu = false;
     }
 };
