@@ -4,7 +4,6 @@
   "description": "Responsive Full Stack Web Dev Portfolio",
   "main": "index.js",
   "scripts": {
-    "build": " /dist/index.html",
     "sass": "node-sass -w dist/scss/ -o dist/css/ --recursive"
   },
   "author": "Sage Jordan",
