@@ -57,7 +57,7 @@
       width: 250px;
       height: 250px;
       border-radius: 50%;
-      border: solid 3px #493548; }
+      border: solid 3px #4b4e6d; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -130,7 +130,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #493548; }
+  color: #4b4e6d; }
 
 main {
   padding: 4rem;
@@ -140,7 +140,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #493548;
+        color: #4b4e6d;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
