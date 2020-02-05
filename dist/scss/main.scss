@@ -27,6 +27,7 @@ h3 {
 
   &.lg-heading {
     font-size: 6rem;
+    filter: drop-shadow(0 0 0.6rem crimson);
   }
 
   &.sm-heading {
@@ -34,12 +35,14 @@ h3 {
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
     width: 40%;
+    filter: drop-shadow(0 0 0.3rem crimson);
   }
 }
 
 a {
   color: $tertiary-color;
   text-decoration: none;
+  filter: drop-shadow(0 0 0.75rem crimson);
 }
 
 header {
