@@ -121,7 +121,7 @@ h3 {
   h2.lg-heading,
   h3.lg-heading {
     font-size: 6rem;
-    filter: drop-shadow(0 0 0.6rem crimson); }
+    filter: drop-shadow(0 0 0.1rem crimson); }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
