@@ -54,7 +54,7 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/cropped-portrait.jpg");
+      background: url("../img/medium-headshot.jpg");
       width: 250px;
       height: 250px;
       border-radius: 50%;
