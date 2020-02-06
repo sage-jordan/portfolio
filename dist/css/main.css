@@ -10,6 +10,7 @@
     height: 5px;
     margin: 0 0 5px 0;
     background: #bcb88a;
+    filter: drop-shadow(0 0 0.1rem crimson);
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -89,6 +90,21 @@
 
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
+
+@media screen and (max-width: 768px) {
+  main {
+    align-items: center;
+    text-align: center;
+    width: 100%; }
+    main h2.sm-heading {
+      width: 100%; }
+    main .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem; } }
+
+@media screen and (max-width: 500px) {
+  main#home h1 {
+    margin-top: 10vh; } }
 
 * {
   box-sizing: border-box; }

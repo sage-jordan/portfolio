@@ -14,6 +14,7 @@
     height: 5px;
     margin: 0 0 5px 0;
     background: $tertiary-color;
+    filter: drop-shadow(0 0 0.1rem crimson);
     @include easeOut;
   }
 
