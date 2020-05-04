@@ -1,11 +1,11 @@
 // Colors
-$primary-color: #2be0e3;
-$secondary-color: #a590e6;
-$tertiary-color: #b4ffea;
+$primary-color: #d77a61;
+$secondary-color: #4b4e6d;
+$tertiary-color: #bcb88a;
 
 // Image
 $show-home-image: true;
-$home-image: url(../img/plane-background.jpg);
+$home-image: url(../img/background.jpeg);
 $background-opacity: 0.5;
 
 // Mixins
@@ -30,5 +30,40 @@ $background-opacity: 0.5;
         background: rgba($primary-color, $background-opacity);
       }
     }
+  }
+}
+
+// Set Tect Color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+// Media Query Mixins
+
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXL {
+  @media screen and (min-width: 1171px) {
+    @content;
   }
 }

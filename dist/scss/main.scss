@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "mobile";
 
 // General Styles
 * {
@@ -10,7 +11,7 @@
 body {
   @include background;
   background: $primary-color;
-  color: $tertiary-color;
+  color: set-text-color($tertiary-color);
   height: 100%;
   margin: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -27,6 +28,7 @@ h3 {
 
   &.lg-heading {
     font-size: 6rem;
+    filter: drop-shadow(0 0 0.1rem crimson);
   }
 
   &.sm-heading {
@@ -34,12 +36,14 @@ h3 {
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
     width: 40%;
+    filter: drop-shadow(0 0 0.3rem crimson);
   }
 }
 
 a {
-  color: $tertiary-color;
+  color: set-text-color($secondary-color);
   text-decoration: none;
+  filter: drop-shadow(0 0 0.75rem crimson);
 }
 
 header {
