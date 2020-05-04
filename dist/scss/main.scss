@@ -11,7 +11,7 @@
 body {
   @include background;
   background: $primary-color;
-  color: $tertiary-color;
+  color: set-text-color($tertiary-color);
   height: 100%;
   margin: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -41,7 +41,7 @@ h3 {
 }
 
 a {
-  color: $tertiary-color;
+  color: set-text-color($secondary-color);
   text-decoration: none;
   filter: drop-shadow(0 0 0.75rem crimson);
 }
